@@ -1,178 +1,203 @@
 <!doctype html>
+
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="./style.css" />
-    <link rel="stylesheet" href="style.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <main>
-      <section id="manSection">
-        <header class="navbar">
-          <div class="logo">Johanthan.doe</div>
-          <nav>
-            <ul>
-              <li>
-                <a href="#"><span class="home-btn">Home</span></a>
-              </li>
-              <li><a href="#">My work</a></li>
-              <li><a href="#">Clients</a></li>
-              <li><a href="#" class="hire-btn">Hire me</a></li>
-            </ul>
-          </nav>
-        </header>
-        <section class="hero">
-          <div class="dots">
-            <span class="dot active"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-          </div>
-          <div class="hero-content">
-            <h1>
-              Building 
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Portfolio</title>
 
-              beautify web 
+<link rel="stylesheet" href="portfolio.css" />
 
-              experiences.
-            </h1>
-            <a href="#" class="primary-btn"> 👁 My work. </a>
-          </div>
-          <div class="hero-image">
-            <img src="Images/man.png" alt="Profile" />
-          </div>
-        </section>
-      </section>
-      <section id="MyWork">
-        <div class="Text">
-          <h2>My work</h2>
-          <p>
-            I'Ve had the pleasure of working with multiple Fortune 500
-            companies, designing and implementing both frontend and backend
-          </p>
-        </div>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet"/>
+</head>
 
-        <div class="images">
-          <img src="./Images/work-1.png" alt="Work 1" />
-          <img src="./Images/work-2.jpeg" alt="Work 2" />
-          <img src="./Images/work-3.png" alt="Work 3" />
-          <img src="./Images/work-4.jpeg" alt="Work 4" />
-          <img src="./Images/work-5.jpeg" alt="Work 5" />
-          <img src="./Images/work-6.jpeg" alt="Work 6" />
-          <img src="./Images/work-7.jpeg" alt="Work 7" />
-          <img src="./Images/work-8.jpeg" alt="Work 8" />
-          <img src="./Images/work-9.jpeg" alt="Work 9" />
-        </div>
-      </section>
-      <section id="Clients">
-        <div class="Text">
-          <h2>Clients</h2>
-          <p>
-            I’ve had the pleasure of working with multiple Fortune 500
-            companies, designing and implementing both frontend and backend.
-          </p>
-        </div>
+<body>
 
-        <div class="client-card">
-          <div class="client-logo">
-            <img src="./Images/download.png" alt="Apple Logo" />
-          </div>
+<main>
 
-          <div class="client-info">
-            <h3>Apple, Inc.</h3>
+<!-- HERO AREA -->
 
-            <div class="tags">
-              <span>UI/UX</span>
-              <span>Frontend Development</span>
-            </div>
+<section id="introArea">
 
-            <p>
-              I’ve had the pleasure of working with multiple Fortune 500
-              companies, designing and implementing both frontend and backend.
-            </p>
-          </div>
-        </div>
-        <div class="client-card">
-          <div class="client-logo">
-            <img src="./Images/download.png" alt="Apple Logo" />
-          </div>
+<header class="topbar">
+<div class="brand">Johanthan.doe</div>
 
-          <div class="client-info">
-            <h3>Apple, Inc.</h3>
+<nav>
+<ul>
+<li><a href="#"><span class="active-link">Home</span></a></li>
+<li><a href="#">My work</a></li>
+<li><a href="#">Clients</a></li>
+<li><a href="#" class="cta-btn">Hire me</a></li>
+</ul>
+</nav>
 
-            <div class="tags">
-              <span>UI/UX</span>
-              <span>Frontend Development</span>
-            </div>
+</header>
 
-            <p>
-              I’ve had the pleasure of working with multiple Fortune 500
-              companies, designing and implementing both frontend and backend.
-            </p>
-          </div>
-        </div>
-        <div class="client-card">
-          <div class="client-logo">
-            <img src="./Images/download.png" alt="Apple Logo" />
-          </div>
+<section class="hero-wrapper">
 
-          <div class="client-info">
-            <h3>Apple, Inc.</h3>
+<div class="indicator">
+<span class="circle current"></span>
+<span class="circle"></span>
+<span class="circle"></span>
+<span class="circle"></span>
+</div>
 
-            <div class="tags">
-              <span>UI/UX</span>
-              <span>Frontend Development</span>
-            </div>
+<div class="hero-text">
 
-            <p>
-              I’ve had the pleasure of working with multiple Fortune 500
-              companies, designing and implementing both frontend and backend.
-            </p>
-          </div>
-        </div>
-      </section>
 
-      <section id="Hire">
-  <div class="Text">
-    <h2>Hire me</h2>
-    <p>Feel free to contact me any time, through any method below</p>
-  </div>
+<a href="#" class="main-action">👁 My work.</a>
 
-  <div class="hire-container">
+</div>
 
-    <form class="contact-form">
-      <label>Name</label>
-      <input type="text" placeholder="Enter your name" />
+<div class="hero-photo">
+<img src="images/man.jpg" alt="profile"/>
+</div>
 
-      <label>Email</label>
-      <input type="email" placeholder="Enter your email" />
-
-      <label>Message</label>
-      <textarea rows="6" placeholder="Write your message..."></textarea>
-
-      <button type="submit" class="send-btn">Send it!</button>
-    </form>
-
-    <div class="contact-info">
-      <p class="phone">555-555-1234</p>
-      <a href="#" class="email">email@mydomain.com</a>
-
-      <div class="social-icons">
-        <div class="icon">S</div>
-        <div class="icon">T</div>
-      </div>
-    </div>
-
-  </div>
 </section>
-    </main>
-  </body>
-</html>
+</section>
 
- 
+<!-- WORK SECTION -->
+
+<section id="portfolioSection">
+
+<div class="section-heading">
+<h2>My work</h2>
+<p>
+I've had the pleasure of working with multiple Fortune 500 companies,
+designing and implementing both frontend and backend
+</p>
+</div>
+
+<div class="work-gallery">
+<img src="./images/work-4.jpeg">
+<img src="./images/work-5.jpeg">
+<img src="./images/work-7.jpeg">
+<img src="./images/work-6.jpeg">
+<img src="./images/work-1.png">
+<img src="./images/work-9.jpeg">
+<img src="./images/work-2.jpeg">
+<img src="./images/work-3.png">
+<img src="./images/work-8.jpeg">
+</div>
+
+</section>
+
+<!-- CLIENTS -->
+
+<section id="clientSection">
+
+<div class="section-heading">
+<h2>Clients</h2>
+<p>
+I’ve had the pleasure of working with multiple Fortune 500 companies,
+designing and implementing both frontend and backend.
+</p>
+</div>
+
+<div class="client-box">
+<div class="client-icon">
+<img src="./images/apple-image.png">
+</div>
+
+<div class="client-details">
+<h3>Apple, Inc.</h3>
+
+<div class="skill-tags">
+<span>UI/UX</span>
+<span>Frontend Development</span>
+</div>
+
+<p>
+I’ve had the pleasure of working with multiple Fortune 500 companies,
+designing and implementing both frontend and backend.
+</p>
+</div>
+</div>
+
+<div class="client-box">
+<div class="client-icon">
+<img src="./images/apple-image.png">
+</div>
+
+<div class="client-details">
+<h3>Apple, Inc.</h3>
+
+<div class="skill-tags">
+<span>UI/UX</span>
+<span>Frontend Development</span>
+</div>
+
+<p>
+I’ve had the pleasure of working with multiple Fortune 500 companies,
+designing and implementing both frontend and backend.
+</p>
+</div>
+</div>
+
+<div class="client-box">
+<div class="client-icon">
+<img src="./images/apple-image.png">
+</div>
+
+<div class="client-details">
+<h3>Apple, Inc.</h3>
+
+<div class="skill-tags">
+<span>UI/UX</span>
+<span>Frontend Development</span>
+</div>
+
+<p>
+I’ve had the pleasure of working with multiple Fortune 500 companies,
+designing and implementing both frontend and backend.
+</p>
+</div>
+</div>
+
+</section>
+
+<!-- CONTACT -->
+
+<section id="contactArea">
+
+<div class="section-heading">
+<h2>Hire me</h2>
+<p>Feel free to contact me any time, through any method below</p>
+</div>
+
+<div class="contact-layout">
+
+<form class="message-form">
+
+<label>Name</label> <input type="text" placeholder="Enter your name">
+
+<label>Email</label> <input type="email" placeholder="Enter your email">
+
+<label>Message</label>
+
+<textarea rows="6" placeholder="Write your message..."></textarea>
+
+<button class="submit-btn">Send it!</button>
+
+</form>
+
+<div class="contact-side">
+
+<p class="phone-number">555-555-1234</p>
+<a href="#" class="email-link">email@mydomain.com</a>
+
+<div class="social-set">
+<div class="social-circle">S</div>
+<div class="social-circle">T</div>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+</main>
+
+</body>
+</html>
